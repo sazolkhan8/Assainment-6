@@ -9,6 +9,16 @@
   .same-color{
     @apply text-red-500;
   }
+
+  .EmDiv{
+    @apply bg-[#2D3142] w-80 flex flex-col items-center text-center py-4 px-10 rounded-lg;
+  }
+  .EmHeading{
+    @apply text-[#FFFFFF] text-lg md:text-2xl font-semibold pt-2;
+  }
+  .EmPera{
+    @apply text-[#DDDDDD] text-xs md:text-[17px] py-2 md:py-5;
+  }
 }
 
 
