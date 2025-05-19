@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+@layer utilities{
+  .nav-links{
+    @apply text-[#072125] hover:text-gray-500 transition-all hover:scale-105 duration-200 cursor-pointer;
+  }
+}
