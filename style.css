@@ -27,6 +27,22 @@
   .discoverDiv{
     @apply bg-[url(/images/1.png)] bg-no-repeat bg-right;
   }
+
+  .teamDiv{
+    @apply bg-[#ffffff] p-2 md:p-10 rounded-lg shadow;
+  }
+  .teamImg{
+    @apply size-20 md:size-fit;
+  }
+  .teamHeading{
+    @apply text-[#000000] text-sm md:text-lg font-semibold pt-5;
+  }
+  .teamSpan{
+    @apply text-[#00FF84] flex gap-5 py-2 md:py-5 text-sm md:text-xl;
+  }
+  .teamPera{
+    @apply text-xs text-gray-500 py-1;
+  }
 }
 
 
