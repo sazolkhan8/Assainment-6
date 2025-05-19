@@ -19,6 +19,14 @@
   .EmPera{
     @apply text-[#DDDDDD] text-xs md:text-[17px] py-2 md:py-5;
   }
+
+  .MVsection{
+    @apply grid grid-cols-12 md:mt-50 mt-10 bg-[#F5F5F5] bg-[url(/images/Oval.png)] bg-center bg-no-repeat;
+  }
+
+  .discoverDiv{
+    @apply bg-[url(/images/1.png)] bg-no-repeat bg-right;
+  }
 }
 
 
