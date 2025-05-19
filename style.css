@@ -5,4 +5,15 @@
   .nav-links{
     @apply text-[#072125] hover:text-gray-500 transition-all hover:scale-105 duration-200 cursor-pointer;
   }
+
+  .same-color{
+    @apply text-red-500;
+  }
+}
+
+
+
+.curve{
+  clip-path: ellipse(100% 100% at 50% 0%);
+  background-position: center top;
 }
